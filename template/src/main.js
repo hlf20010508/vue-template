@@ -13,6 +13,8 @@ Vue.use(VueAxios, axios);
 
 Vue.config.productionTip = false
 
+// axios.defaults.baseURL = '/api'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
